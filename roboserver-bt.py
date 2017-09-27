@@ -76,4 +76,5 @@ while running:
     client_sock.close()
 	
 server_sock.close()
+GPIO.cleanup()
 print "all done"
